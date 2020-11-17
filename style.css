@@ -44,6 +44,11 @@ main{
    
 }
 
+img{
+    width: 100%;
+    height: 100%;
+}
+
 @media only screen and (min-width: 800px){
     
     #cat-house{
@@ -52,6 +57,12 @@ main{
         flex-direction: column;
         justify-content: center;
         width: 50%;
+
         
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
     }
 }
